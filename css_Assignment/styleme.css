@@ -1,0 +1,20 @@
+h1, h2 {
+    color: rgb(67, 167, 197);
+}
+
+body {
+    background-color: cornsilk;
+}
+strong{
+    color: blue;
+    font-family: 'Times New Roman';
+    
+}
+
+p::first-letter{
+    font-size: x-large;
+}
+
+#mission {
+    color: #FF0000;
+}
