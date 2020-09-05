@@ -18,3 +18,12 @@ a {
 h1, h2{
     text-decoration: underline;
 }
+
+ul  {
+    width:249px;
+    margin-left:20px;
+    margin-top: 0px; 
+    list-style: circle;
+    text-align: left;   
+    margin-bottom:0;
+}
