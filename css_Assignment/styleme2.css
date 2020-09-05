@@ -1,0 +1,20 @@
+h1,h2 {
+color: #A4A400;
+background-color: #F0F0F0;
+}
+
+b {
+color: #404040;
+}
+
+a {
+    color: #A4A400
+}
+
+.special{
+    background-color: #FFFFA8 ;
+}
+
+h1, h2{
+    text-decoration: underline;
+}
