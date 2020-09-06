@@ -19,9 +19,9 @@ h1, h2{
     text-decoration: underline;
 }
 
-ul  {
+.classic  {
     width:249px;
-    margin-left:20px;
+    margin-left:10px;
     margin-top: 0px; 
     list-style: circle;
     text-align: left;   
