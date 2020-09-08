@@ -81,7 +81,7 @@ function sumInput() {
     let numbers = [];
 
     while (true) {
-        let value = parseFloat(prompt("A number please?", 0));
+        let value = prompt("A number please?", 0);
         if (value === "" || value === null || !isFinite(value)) break;
         numbers.push(value);
     }
