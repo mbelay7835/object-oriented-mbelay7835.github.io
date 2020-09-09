@@ -104,7 +104,7 @@ describe("reverse", function() {
   
   });
 
-///////////////////////////////////////////////////////filter Long Word Test
+/////////////////////////////////////////////////////// filter Long Word Test
   /* global filterLongWord assert */
 describe("filterLongWords", function () {
 
