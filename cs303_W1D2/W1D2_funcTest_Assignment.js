@@ -1,5 +1,5 @@
 "use strict";
-///////////////////////////////////sum Test
+///////////////////////////////////sum Test.
 
 /* global sum assert */
 describe("sum", function() {
