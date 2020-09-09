@@ -97,7 +97,7 @@ function isVowel(str) {
     return (vowel.indexOf(str) !== -1)
 }
 
-/////////////////////////////////////////////////////filterLongWord
+///////////////////////////////////////////////////// filterLongWord
 /* eslint-disable id-length */
 "use strict";
 /**
