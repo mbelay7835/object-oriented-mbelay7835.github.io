@@ -103,3 +103,21 @@ describe("reverse", function() {
       }); 
   
   });
+
+///////////////////////////////////////////////////////filter Long Word Test
+  /* global filterLongWord assert */
+describe("filterLongWords", function () {
+
+  it(`(['meku','adugn','belay'], 4) output  [adugn','belay']`, function () {
+    assert.deepEqual(filterLongWords(["meku", "adugn", "belay"], 4), ["adugn", "belay"]);
+  });
+
+  it("(['beya','adugna','bela'], 3) output  ['beya', 'adugna','bela']", function () {
+    assert.deepEqual(filterLongWords(['beya', 'adugna', 'bela'], 3), ['beya', 'adugna', 'bela']);
+  });
+
+  it("(['meet','month','ye'], 2) output  ['month','yes']", function () {
+    assert.deepEqual(filterLongWords(['meet', 'month', 'ye'], 2), ["meet", 'month']);
+  });
+
+});

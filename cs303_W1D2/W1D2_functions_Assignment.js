@@ -96,3 +96,19 @@ function isVowel(str) {
     str = str.toLowerCase();
     return (vowel.indexOf(str) !== -1)
 }
+
+/////////////////////////////////////////////////////filterLongWord
+/* eslint-disable id-length */
+"use strict";
+/**
+ * Returns array of words that are longer than i.
+ * @param {object} arr input object.
+ * @param {number} i input number.
+ * @return {object} array of words that are longer than num.
+ */
+
+function filterLongWords(arr, i) {
+    debugger;
+    let filtered = arr.filter(e => e.length > i);
+    return filtered
+}
