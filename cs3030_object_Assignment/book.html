@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book List</title>
+    <script src="W1D3_object_bookLibrary_Assignment.js"></script>
+</head>
+
+<body>
+    <h1>Mequanint Belay</h1>
+    <h2>W1D3 Object Assignment</h2>
+    <ul>
+        <li><a href="W1D3_object_bookLibrary_Assignment.js">Codes for book Library</a></li>
+        <li><a href="W1D3_task_From_Js_Book.js">Tasks from JS book</a></li>
+    </ul>
+    <br><br>
+    Book Title
+    <br />
+    <input type="text" id="title" size="90" />
+    <br><br>
+    Author
+    <br>
+    <input type="text" id="author" size="90">
+    <br><br>
+    Library Id
+    <br>
+    <input type="text" id="id" size="90">
+    <br><br>
+    <button type="button" onclick="bookLibrary()">Show book library</button>
+    <button type="button" onmouseover="showTitles()">Show title</button>
+    <button type="button" onmouseover="showAuthor()">Show author</button>
+    <button type="button" onmouseover="libraryId()">Show IDs</button>
+
+    <p id="display"></p>
+    <div>
+        <textarea id="displayArea" rows="10" cols="80"></textarea>
+    </div>
+
+</body>
+
+</html>
