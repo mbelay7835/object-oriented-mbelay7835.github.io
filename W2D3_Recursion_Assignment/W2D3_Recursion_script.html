@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mochat</title>
+
+<head>
+    <!-- add mocha css, to show results -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+</head>
+
+<body>
+    </ul>
+    <script src="calculate_factorial.js"></script>
+    <script src="Fibonacci numbers.js"></script>
+    <script src="print list.js"></script>
+    <script src="print list in reverse order.js"></script>
+    <script src="Sum all numbers till the given one.js"></script>
+    <script src="double numbers.js"></script>
+    <script src="double age.js"></script>
+    <script src="find sum of numbers.js"></script>
+    <script src="find average of numbers.js"></script>
+    <script src="find max of numbers.js"></script>
+    <script src="find max for age.js"></script>
+    <script src="include value.js"></script>
+    <script src="average age of people with even number ages.js"></script>
+    <script src="average age of people with odd number ages.js"></script>
+    <script src="filter all even numbers.js"></script>
+    <script src="filter all age grtThan 10.js"></script>
+    <script src="find age greater than ten.js"></script>
+    <script src="find even.js"></script>
+    <script src="print nameValue_using recursion.js"></script>
+    
+
+    <!-- the element with id="mocha" will contain test results -->
+    <div id="mocha"></div>
+
+    <!-- run tests! -->
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
