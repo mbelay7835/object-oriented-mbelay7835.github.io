@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mochat</title>
+
+<head>
+    <!-- add mocha css, to show results -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+</head>
+
+<body>
+    <p>Looking for the console...</p>
+    </ul>
+    <script src="Are counters independent.js"></script>
+    <script src="Army of functions.js"></script>
+    <script src="Counter object.js"></script>
+    <script src="Does a function pickup latest changes.js"></script>
+    <script src="Filter through function.js"></script>
+    <script src="Function in if.js"></script>
+    <script src="Is variable visible.js"></script>
+    <script src="set and decrease for counter.js"></script>
+    <script src="Sort by field.js"></script>
+    <script src="Sum with closures.js"></script>
+    
+    
+    <!-- the element with id="mocha" will contain test results -->
+    <div id="mocha"></div>
+
+    <!-- run tests! -->
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
